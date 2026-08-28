@@ -2,7 +2,7 @@ export default function Search({ searchTerm, setSearchTerm }) {
   return (
     <div className="search">
       <div>
-        <img src="/public/search.svg" alt="search icon" />
+        <img src="/search.svg" alt="search icon" />
 
         <input
           type="text"
