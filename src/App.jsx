@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useDebounce } from 'react-use';
 import './App.css';
+import MovieCard from './components/MovieCard';
 import Search from './components/Search';
 import Spinner from './components/Spinner';
-import MovieCard from './components/MovieCard';
 
 const API_BASE_URL = 'https://api.themoviedb.org/3';
 
